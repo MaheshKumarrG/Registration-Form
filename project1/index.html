@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Take your time to give your opinion and help us get better...</p>
+    <form method="post" action="https://register-demo.freecodecamp.org" id="survey-form">
+        <fieldset>
+            <label for="name-label">Enter your name : <input type="text" id="name-label" placeholder="eg:Mahesh" required></label>
+            <label for="email-label">Enter your email: <input type="email" id="email-label" placeholder="eg:someone@gmail.com" required></label>
+            <label for="number-label">Enter your age: <input type="number" id=""number-label min="13" max="120" placeholder="eg:42" required ></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown">How much do you rate FreeCodeCamp in the scale of 10?
+                <select name="dropdown" id="dropdown">
+                    <option value="1">select a option</option>
+                    <option value="2">0-3(avgerage)</option>
+                    <option value="3">4-7(good)</option>
+                    <option value="4">8-10(excellent)</option>
+                </select>
+            </label>
+        </fieldset>            
+        <fieldset>    
+            <label>Would you refer us to your friends and family?</label>
+            <label for="Sure"><input id="Sure" name="recommend" type="radio"  class="inline" checked>Sure!</label>
+            <label for="Probably"><input id="Probably" name="recommend" type="radio" class="inline" >Probably...</label>
+            <label for="Never"><input id="Never" name="recommend" type="radio" class="inline" >Never!</label>
+        </fieldset>
+        <fieldset>
+            <label>What do you want us to put more content on?
+            <label for="1"><input id="1" class="inline" type="checkbox">Front-end</label>
+            <label for="2"><input id="2" class="inline" type="checkbox">Back-end</label>
+            <label for="3"><input id="3" class="inline" type="checkbox">Javascript</label>
+            <label for="4"><input id="4" class="inline" type="checkbox">Data Visualisation</label>
+            <label for="5"><input id="5" class="inline" type="checkbox">Git Repository</label>
+            <label for="6"><input id="6" class="inline" type="checkbox">Data Analysis</label>
+            <label for="7"><input id="7" class="inline" type="checkbox">Machine Learning</label>
+            <label for="8"><input id="8" class="inline" type="checkbox">Coding Interview Prep</label>
+            <label for="9"><input id="9" class="inline" type="checkbox">Legacy Python</label>
+        </label>
+        </fieldset>
+        <fieldset>
+            <label >Do you have any suggestions?</label>
+            <textarea name="suggestion" id="suggestions" rows="5" cols="30"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

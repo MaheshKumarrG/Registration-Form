@@ -1,0 +1,46 @@
+ label{
+    display:block;
+    margin:0.5rem,0;
+}
+
+h1,p{
+    text-align: center;
+}
+
+
+
+body{
+    width: 500px;
+    font-family:sans-serif;
+    font-size: medium;
+    background-color: #87a96b;
+    /* padding-left: 500px; */
+}
+
+fieldset{
+    margin:30px;
+    border: none;
+}
+
+input,select,textarea{
+    width:100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #AFDBF5;
+}
+
+input,select{
+    height: 25px;
+}
+ 
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+
+form{
+    background-color: #008080;
+    font-size: large;
+}
